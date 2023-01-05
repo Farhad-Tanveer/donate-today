@@ -3,6 +3,23 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.section {
+    margin: 140px 400px;
+    text-align: center;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #FF5958;
+    color: #FFF8F3;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
 /* header styles */
 .header {
     text-align: center;
@@ -31,17 +48,7 @@
     margin-top: 30px;
 }
 
-.btn {
-    font-weight: 700;
-    font-size: 16px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background: #FF5958;
-    color: #FFF8F3;
-    cursor: pointer;
-    margin-top: 30px;
-}
+
 
 
 /* donate today styles */
@@ -75,11 +82,12 @@
     font-weight: 700;
     font-size: 35px;
     color: #121212;
+    margin-bottom: 35px;
 }
 
 .section-description {
     color: grey;
-    margin-top: 34px;
+    margin-top: 35px;
 }
 
 .set-amount {
@@ -89,4 +97,82 @@
     margin-top: 30px;
     padding: 10px;
     color: gray;
+}
+
+/* our donate plane styles */
+
+.donate-plan {
+    margin: 0 400px;
+    text-align: center;
+}
+
+.donate-items {
+    display: flex;
+    gap: 24px;
+    margin: 0 150px;
+    margin-top: 50px;
+}
+
+.item {
+    padding: 60px 0;
+    padding-left: 25px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+.color1 {
+    background-color: #ecf5f6;
+}
+
+.color2 {
+    background-color: #fbeae9;
+}
+
+.color3 {
+    background-color: #FFF3D6;
+}
+
+/* blog part styles */
+
+.blogs {
+    margin: 130px 150px;
+}
+
+.blogs img {
+    height: 50%;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.blog-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #121212;
+}
+
+.blog-text-part-one {
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.blog-text-part-two {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.blog-description {
+    color: grey;
+    margin-top: 35px;
+    padding-right: 60px;
+}
+
+.blog-one {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.blog-two {
+    display: flex;
+    justify-content: space-between;
 }
