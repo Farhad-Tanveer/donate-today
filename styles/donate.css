@@ -106,6 +106,10 @@
     text-align: center;
 }
 
+.sector-title {
+    margin: 20px 0;
+}
+
 .donate-items {
     display: flex;
     gap: 24px;
