@@ -176,3 +176,56 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* my updates styles */
+
+.input-section {
+    padding: 75px 180px;
+    background-color: #FFF3D6;
+    margin-top: 50px;
+}
+
+.updates input {
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+    height: 40px;
+    color: #D9D9D9;
+    border: none;
+}
+
+.updates input[type="email"] {
+    padding-left: 10px;
+    outline: none;
+}
+
+.updates .sub-btn {
+    border: none;
+    border-radius: 0 5px 5px 0;
+    width: 80px;
+    height: 40px;
+    background-color: #FF5958;
+    color: #FFF8F3;
+}
+
+/* footer */
+
+footer {
+    background-color: #0A0E17;
+    height: 100px;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.quote-title {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Lobster';
+    color: #FF5959;
+    margin-bottom: 40px;
+}
+
+.quote-text {
+    color: #D9DBE1;
+    font-weight: 400;
+    font-size: 14px;
+}
